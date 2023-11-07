@@ -16,7 +16,10 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 36px;
+  font-family: field-gothic-compact, sans-serif;
+  font-style: normal;
+  font-weight: 200;
 }
 
 body {
@@ -39,6 +42,70 @@ video {
   vertical-align: middle;
 }
 
+.test-square {
+  height: 700px;
+  width: 600px;
+  background-color: black;
+}
+
+.test-square-02 {
+  height: 700px;
+  width: 900px;
+  background-color: black;
+}
+
+.test-square-03 {
+  height: 900px;
+  width: 1000px;
+  background-color: black;
+}
+
+.test-square-04 {
+  height: 900px;
+  width: 1300px;
+  background-color: black;
+}
+
+.test-square-05 {
+  height: 500px;
+  width: 500px;
+  background-color: black;
+}
+
+.test-square-06 {
+  height: 700px;
+  width: 700px;
+  background-color: black;
+}
+
+.test-square-07 {
+  height: 600px;
+  width: 700px;
+  background-color: black;
+}
+
+.test-square-08 {
+  height: 500px;
+  width: 800px;
+  background-color: black;
+}
+
+.test-square-09 {
+  height: 800px;
+  width: 1200px;
+  background-color: black;
+}
+
+.test-square-10 {
+  height: 600px;
+  width: 600px;
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
 /* ====================================
 // base rules
 // ==================================== */
