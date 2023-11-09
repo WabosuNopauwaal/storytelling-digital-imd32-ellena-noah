@@ -1,23 +1,24 @@
 .case-01-moine-flotte {
-  border: 3px black solid;
   position: relative;
-  aspect-ratio: 3.5 / 1;
 }
 
 .moine-flotte {
   position: absolute;
-  top: -30%;
-  left: 40%;
+  bottom: 0%;
+  left: 0%;
+  width: 12.5%;
 }
 
 .bulle-moine-wow {
   position: absolute;
-  top: -23%;
-  left: 56%;
+  bottom: 0%;
+  left: 0%;
+  width: 25%;
 }
 
 .moine-wow {
   position: absolute;
-  top: 0%;
-  left: 60%;
+  bottom: 0%;
+  left: 0%;
+  width: 25%;
 }

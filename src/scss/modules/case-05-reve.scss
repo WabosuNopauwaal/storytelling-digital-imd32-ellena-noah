@@ -1,11 +1,7 @@
-.test-square-reve {
-  height: 900px;
-  width: 900px;
-  background-color: black;
+.reve {
+  position: absolute;
 }
 
 .case-05-reve {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
 }

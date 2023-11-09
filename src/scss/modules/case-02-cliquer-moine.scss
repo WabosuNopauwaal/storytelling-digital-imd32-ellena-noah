@@ -1,17 +1,15 @@
 .case-02-cliquer-moine {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
 }
 
-.test-square-moine-flotte-02 {
-  height: 500px;
-  width: 200px;
-  background-color: red;
+.moine-flotte-02 {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
 }
 
-.test-square-moines-autour {
-  height: 700px;
-  width: 1000px;
-  background-color: black;
+.moines-autour {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
 }

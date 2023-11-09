@@ -1,17 +1,11 @@
-.test-square-bulle-moine-parle {
-  height: 700px;
-  width: 600px;
-  background-color: black;
-}
-
-.test-square-moine-parle {
-  height: 500px;
-  width: 600px;
-  background-color: red;
-}
-
 .case-03-moine-parle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
+}
+
+.bulle-moine-parle {
+  position: absolute;
+}
+
+.moine-parle {
+  position: absolute;
 }
