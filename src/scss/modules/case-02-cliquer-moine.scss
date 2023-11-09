@@ -1,7 +1,7 @@
-.test-square-moines-autour {
-  height: 700px;
-  width: 1000px;
-  background-color: black;
+.case-02-cliquer-moine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .test-square-moine-flotte-02 {
@@ -10,8 +10,8 @@
   background-color: red;
 }
 
-.case-02-cliquer-moine {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.test-square-moines-autour {
+  height: 700px;
+  width: 1000px;
+  background-color: black;
 }

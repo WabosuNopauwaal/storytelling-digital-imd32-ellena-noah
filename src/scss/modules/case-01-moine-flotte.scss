@@ -1,23 +1,23 @@
-.test-square-moine-flotte {
-  height: 600px;
-  width: 200px;
-  background-color: red;
-}
-
-.test-square-bulle-moine-wow {
-  height: 200px;
-  width: 200px;
-  background-color: black;
-}
-
-.test-square-moine-wow {
-  height: 500px;
-  width: 300px;
-  background-color: purple;
-}
-
 .case-01-moine-flotte {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  border: 3px black solid;
+  position: relative;
+  aspect-ratio: 3.5 / 1;
+}
+
+.moine-flotte {
+  position: absolute;
+  top: -30%;
+  left: 40%;
+}
+
+.bulle-moine-wow {
+  position: absolute;
+  top: -23%;
+  left: 56%;
+}
+
+.moine-wow {
+  position: absolute;
+  top: 0%;
+  left: 60%;
 }
