@@ -70,6 +70,48 @@ footer {
   color: white;
 }
 
+.footer-contacts-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-text-gauche h1 {
+  font-family: Field Gothic;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.footer-text-gauche {
+  padding: 150 140 210 130;
+}
+
+.footer-text-droit {
+  font-family: Field Gothic;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 150 130 210 140;
+}
+
+.footer-text-droit h1 {
+  font-family: Field Gothic;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
