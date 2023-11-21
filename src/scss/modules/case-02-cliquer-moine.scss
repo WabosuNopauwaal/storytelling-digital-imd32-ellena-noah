@@ -8,6 +8,16 @@
   bottom: 30%;
   left: 57%;
   width: 10%;
+  animation: moveUpDown 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
 }
 
 .moines-autour {

@@ -1,7 +1,6 @@
 .case-09-montagne-group {
   position: relative;
   aspect-ratio: 2 / 1;
-  border: 3px solid red;
 }
 
 .montagnes-group {
@@ -10,6 +9,17 @@
   left: 22%;
   bottom: 2%;
   z-index: 1;
+  animation: moveAndRotate 4s ease-in-out infinite;
+}
+
+@keyframes moveAndRotate {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(10px, 10px) rotate(1deg);
+  }
 }
 
 .montagnes-group-bg {
@@ -17,4 +27,18 @@
   width: 58%;
   left: 20%;
   bottom: 1%;
+  filter: blur(10px);
+  animation: fadeInOut 8s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  50% {
+    opacity: 1;
+    filter: blur(0);
+  }
 }

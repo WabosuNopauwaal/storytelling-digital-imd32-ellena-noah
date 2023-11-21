@@ -7,10 +7,38 @@
   position: absolute;
 }
 
+.avalanche-tombe-crac {
+  position: absolute;
+}
+
 .avalanche-tombe-bg {
   position: absolute;
 }
 
-.avalanche-tombe-crac {
-  position: absolute;
+.avalanche-tombe img:first-child {
+  animation: moveRightBottom 4s ease-in-out forwards infinite;
+}
+
+.avalanche-tombe-crac img:nth-child(2) {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards infinite;
+  animation-delay: 4s;
+}
+
+@keyframes moveRightBottom {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(50%, 50%);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

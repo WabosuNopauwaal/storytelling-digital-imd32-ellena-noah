@@ -10,4 +10,28 @@
   width: 65%;
   bottom: 3.5%;
   left: 17%;
+  animation: scaleAnimation 5s ease-in-out infinite;
+  animation: scaleAndBlurAnimation 5s ease-in-out infinite;
+}
+
+@keyframes scaleAnimation {
+  0%,
+  100% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleAndBlurAnimation {
+  0%,
+  100% {
+    transform: scale(0.9);
+    filter: blur(0);
+  }
+  50% {
+    transform: scale(1);
+    filter: blur(5px);
+  }
 }

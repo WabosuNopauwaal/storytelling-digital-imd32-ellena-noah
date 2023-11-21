@@ -9,6 +9,19 @@
   bottom: 18%;
   left: 36%;
   z-index: 1;
+  animation: moveAndFadeOut 4s ease-in-out infinite;
+}
+
+@keyframes moveAndFadeOut {
+  0%,
+  100% {
+    opacity: 1;
+    transform: translate(10%, 10%);
+  }
+  50% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
 }
 
 .avalanche {
