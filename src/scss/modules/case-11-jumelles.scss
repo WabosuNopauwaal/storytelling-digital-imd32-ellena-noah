@@ -1,12 +1,13 @@
-.test-square-jumelles-vue {
-  height: 700px;
-  width: 1200px;
+.case-11-jumelles {
+  position: relative;
+  aspect-ratio: 2 / 1;
   background-color: black;
+  background-size: auto;
 }
 
-.case-11-jumelles {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: blue;
+.jumelles-vue {
+  position: absolute;
+  width: 65%;
+  bottom: 3.5%;
+  left: 17%;
 }

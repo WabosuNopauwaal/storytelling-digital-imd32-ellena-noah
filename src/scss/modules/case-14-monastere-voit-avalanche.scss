@@ -1,11 +1,16 @@
-.test-square-monastere-voit-avalanche {
-  height: 700px;
-  width: 900px;
-  background-color: black;
+.case-14-monastere-voit-avalanche {
+  position: relative;
+  aspect-ratio: 2 / 1;
 }
 
-.case-14-monastere-voit-avalanche {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.monastere-voit-avalanche-moines {
+  position: absolute;
+}
+
+.monastere-voit-avalanche-sol {
+  position: absolute;
+}
+
+.monastere-voit-avalanche-bg {
+  position: absolute;
 }

@@ -1,11 +1,8 @@
-.test-square-tintin-guide {
-  height: 500px;
-  width: 500px;
-  background-color: black;
+.case-12-tintin-guide {
+  position: relative;
+  aspect-ratio: 2 / 1;
 }
 
-.case-12-tintin-guide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.tintin-guide {
+  position: absolute;
 }

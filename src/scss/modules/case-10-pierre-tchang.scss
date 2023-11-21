@@ -1,17 +1,19 @@
-.test-square-pierre {
-  height: 500px;
-  width: 300px;
-  background-color: blue;
-}
-
-.test-square-bulle-pierre {
-  height: 300px;
-  width: 500px;
-  background-color: black;
-}
-
 .case-10-pierre-tchang {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
+  aspect-ratio: 2 / 1;
+}
+
+.pierre {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  width: 30%;
+}
+
+.bulle-pierre {
+  position: absolute;
+  bottom: 30%;
+  left: 35%;
+  width: 100%;
+  z-index: 1;
 }

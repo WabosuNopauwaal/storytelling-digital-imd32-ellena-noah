@@ -3,10 +3,17 @@
   aspect-ratio: 2 / 1;
 }
 
-.avalanche {
-  position: absolute;
-}
-
 .avalanche-broum {
   position: absolute;
+  width: 60%;
+  bottom: 18%;
+  left: 36%;
+  z-index: 1;
+}
+
+.avalanche {
+  position: absolute;
+  width: 30%;
+  bottom: 18%;
+  left: 36%;
 }

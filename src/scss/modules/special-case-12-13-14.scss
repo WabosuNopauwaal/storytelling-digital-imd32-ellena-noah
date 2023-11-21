@@ -1,0 +1,58 @@
+.special-case-12-13-14 {
+  position: relative;
+  aspect-ratio: 2 / 1;
+  border: 3px solid pink;
+}
+
+.tintin-guide {
+  position: absolute;
+  width: 30%;
+  top: 10%;
+  left: 10%;
+}
+
+.avalanche-tombe-crac {
+  position: absolute;
+  width: 10%;
+  top: 15%;
+  left: 30%;
+  z-index: 1;
+}
+
+.avalanche-tombe {
+  position: absolute;
+  width: 40%;
+  top: 23%;
+  left: 12%;
+  z-index: 2;
+}
+
+.avalanche-tombe-bg {
+  position: absolute;
+  width: 40%;
+  top: 0%;
+  left: 10%;
+}
+
+.monastere-voit-avalanche-moines {
+  position: absolute;
+  width: 70%;
+  bottom: 30%;
+  left: 45%;
+  z-index: 4;
+}
+
+.monastere-voit-avalanche-sol {
+  position: absolute;
+  width: 70%;
+  bottom: 30%;
+  left: 45%;
+  z-index: 3;
+}
+
+.monastere-voit-avalanche-bg {
+  position: absolute;
+  width: 70%;
+  bottom: 53%;
+  left: 45.5%;
+}

@@ -8,11 +8,11 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="start">
         <img src="img/logo-tintin.webp" alt="logo-tintin-nav" />
-        <a>écran titre</a>
-        <a>acheter l'album</a>
-        <a>formation sur l'editeur</a>
+        <a href="#start">écran titre</a>
+        <a href="#album">acheter l'album</a>
+        <a href="#contacts">formation sur l'editeur</a>
       </nav>
 
       <div class="intro-logo-titre">
@@ -71,16 +71,24 @@
       </section>
 
       <section class="case-05-reve">
-        <div class="reve"></div>
+        <div class="reve">
+          <img src="img/reve.webp" alt="tintin rêve" />
+        </div>
       </section>
 
       <section class="case-06-crier-tchang">
-        <div class="test-square-crier-tchang"></div>
+        <div class="crier-tchang">
+          <img src="img/table-tintin.webp" alt="" />
+        </div>
       </section>
 
       <section class="case-07-journal">
-        <div class="test-square-bg-journal"></div>
-        <div class="test-square-tintin-lit"></div>
+        <div class="bg-journal">
+          <img src="img/bg-journal.webp" alt="le journal" />
+        </div>
+        <div class="tintin-lit">
+          <img src="img/tintin-lit.webp" alt="tintin lit le journal" />
+        </div>
       </section>
 
       <section class="case-08-partir">
@@ -96,46 +104,96 @@
       </section>
 
       <section class="case-09-montagne-group">
-        <div class="test-square-montagne-group"></div>
+        <div class="montagnes-group">
+          <img src="img/montagnes-group.webp" alt="group dans la montagnes" />
+        </div>
+        <div class="montagnes-group-bg">
+          <img src="img/montagnes.webp" alt="les montagnes en arrière" />
+        </div>
       </section>
 
       <section class="case-10-pierre-tchang">
-        <div class="test-square-pierre"></div>
-        <div class="test-square-bulle-pierre"></div>
+        <div class="pierre">
+          <img src="img/pierre.webp" alt="le pierre de Tchang" />
+        </div>
+        <div class="bulle-pierre">
+          <img
+            src="img/bulle-pierre.png"
+            alt="la bulle de la pierre de Tchang"
+          />
+        </div>
       </section>
 
       <section class="case-11-jumelles">
-        <div class="test-square-jumelles-vue"></div>
+        <div class="jumelles-vue">
+          <img
+            src="img/jumelles-vue.webp"
+            alt="la vue à travers les jumelles"
+          />
+        </div>
       </section>
 
-      <section class="case-12-tintin-guide">
-        <div class="test-square-tintin-guide"></div>
-      </section>
+      <div class="special-case-12-13-14">
+        <section class="case-12-tintin-guide">
+          <div class="tintin-guide">
+            <img src="img/guide.webp" alt="tintin et le guide" />
+          </div>
+        </section>
 
-      <section class="case-13-avalanche-tombe">
-        <div class="test-square-avalanche-tombe"></div>
-      </section>
+        <section class="case-13-avalanche-tombe">
+          <div class="avalanche-tombe">
+            <img src="img/avalanche-02.webp" alt="l'avalanche 02" />
+          </div>
+          <div class="avalanche-tombe-crac">
+            <img src="img/avalanche-02-crac.webp" alt="l'onomatoé crac" />
+          </div>
+          <div class="avalanche-tombe-bg">
+            <img
+              src="img/avalanche-02-bg.webp"
+              alt="le background de l'avalanche 02"
+            />
+          </div>
+        </section>
 
-      <section class="case-14-monastere-voit-avalanche">
-        <div class="test-square-monastere-voit-avalanche"></div>
-      </section>
+        <section class="case-14-monastere-voit-avalanche">
+          <div class="monastere-voit-avalanche-moines">
+            <img
+              src="img/monastere-moines.webp"
+              alt="les moines du monastère"
+            />
+          </div>
+          <div class="monastere-voit-avalanche-sol">
+            <img src="img/monastere-sol.webp" alt="le sol du monastère" />
+          </div>
+          <div class="monastere-voit-avalanche-bg">
+            <img
+              src="img/monastere-bg.webp"
+              alt="les montagnes à l'arrière du monastère"
+            />
+          </div>
+        </section>
+      </div>
 
       <section class="case-15-milou-crie">
-        <div class="test-square-10"></div>
+        <div class="milou-crie">
+          <img src="img/milou-crie.webp" alt="milou crie" />
+        </div>
       </section>
 
       <section class="fleche-haut">
         <img src="img/fleche-haut.webp" alt="flèche vers haut" />
       </section>
 
-      <section class="case-16-vente-comic">
+      <section class="case-16-vente-comic" id="album">
         <img class="bd" src="img/bd.jpg" alt="bd" />
         <p>
           Commandez votre BD dès maintenant et laissez-vous emporter par
           l'aventure !
         </p>
         <div class="button">
-          <a href="">Aller vers la boutique</a>
+          <a href="https://www.tintin.com/en/albums/tintin-in-tibet"
+            >Aller vers la boutique</a
+          >
         </div>
         <p>Résumé</p>
         <p>Caractéristiques</p>
@@ -146,7 +204,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer id="contacts">
       <div class="">
         <p>Tintin sur les réseaux sociaux</p>
       </div>
