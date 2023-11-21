@@ -9,6 +9,16 @@
   left: 36%;
   width: 10%;
   z-index: 2;
+  animation: moveUpDown 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
 }
 
 .bulle-moine-wow {

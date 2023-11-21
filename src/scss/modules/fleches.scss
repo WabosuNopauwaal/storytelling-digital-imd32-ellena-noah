@@ -1,0 +1,33 @@
+.fleche-bas {
+  position: relative;
+  width: 7%;
+  top: 5%;
+  left: 47%;
+  animation: moveUpDown 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+.fleche-haut {
+  position: relative;
+  width: 7%;
+  bottom: 2%;
+  left: 90%;
+  animation: moveUpDown 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
