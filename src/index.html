@@ -4,20 +4,18 @@
     <meta charset="utf-8" />
     <title>storytelling digital IMD32 Ellena Noah</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <header>
-      <nav id="start">
+    <header id="start">
+      <nav>
         <img src="img/logo-tintin.webp" alt="logo-tintin-nav" />
-        <a href="#start">écran titre</a>
-        <a href="#album">acheter l'album</a>
-        <a href="#contacts">formation sur l'editeur</a>
+        <a href="#start">Écran titre</a>
+        <a href="#album">Acheter l'album</a>
+        <a href="#contacts">Information sur l'editeur</a>
       </nav>
 
-      <div class="intro-logo-titre">
+      <div id="haut" class="intro-logo-titre">
         <img
           class="intro-logo-titre-img"
           src="img/intro-logo-titre.webp"
@@ -26,7 +24,9 @@
       </div>
 
       <div class="fleche-bas">
-        <img src="img/fleche-bas.webp" alt="flèche vers bas" />
+        <a href="#album">
+          <img src="img/fleche-bas.webp" alt="flèche vers bas" />
+        </a>
       </div>
     </header>
 
@@ -184,10 +184,12 @@
       </section>
 
       <section class="fleche-haut">
-        <img src="img/fleche-haut.webp" alt="flèche vers haut" />
+        <a href="#haut">
+          <img src="img/fleche-haut.webp" alt="flèche vers haut" />
+        </a>
       </section>
 
-      <section class="case-16-vente-comic" id="album">
+      <section id="album" class="case-16-vente-comic">
         <img class="bd" src="img/bd.jpg?as=webp" alt="bd" />
         <div class="cote-text">
           <h1>
@@ -199,8 +201,26 @@
               >Aller vers la boutique</a
             >
           </div>
-          <p>Résumé</p>
-          <p>Caractéristiques</p>
+          <div class="album-text">
+            <div class="drop-down-menu">
+              <p class="drop-item">Résumé</p>
+              <div class="drop-down-content">
+                <p>
+                  Un avion de ligne à bord duquel le jeune Chinois Tchang se
+                  rendait en Europe s'est écrasé dans l'Himalaya. Tintin au Tibet
+                  (1960), pure histoire d'amitié, sans le moindre méchant, décrit
+                  la recherche désespérée à laquelle Tintin se livre pour
+                  retrouver son ami.
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div class="drop-down-menu">
+              <p class="drop-item">Caractéristiques</p>
+              <div class="drop-down-content">
+                <p>Contenu de Caractéristiques.</p>
+              </div>
+            </div>
         </div>
       </section>
 
